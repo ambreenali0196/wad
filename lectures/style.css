@@ -1,0 +1,18 @@
+#main {
+    
+}
+
+.chicks {
+ 
+	border: dashed red;
+	max-width: 400px;
+	max-height: 300px; 
+	border-radius: 20px;
+	margin: auto;
+	cursor:pointer;
+	-webkit-box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.75);
+
+}
+ 
