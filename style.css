@@ -36,15 +36,6 @@ input[type=radio]{
     color: white;
     font-weight: bold;
 }
-#try-again {
-    text-align: center;
-    background-color: #805724;
-    width: 150px;
-    height: 60px;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-}
 
 #question {
     text-align: center;
@@ -70,4 +61,19 @@ input[type=radio]{
     text-align: center;
     font-size: 2em;
     margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .quiz-wrapper {
+		background-color: #333333;
+		color: #ffffff;
+	}
+	.quiz-wrapper li {
+		color: #ffffff;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.quiz-wrapper li {
+		font-size: 1.5em;
+	}
 }
